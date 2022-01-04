@@ -5,15 +5,20 @@
 
  1. `npm install eslint --save-dev`
  2. .`/node_modules/.bin/eslint --init`
-			 - To check syntax + find problems  | ~~style guide~~
-			 - json or js
+ 
+ 
+    - To check syntax + find problems  | ~~style guide~~
+    - json or js
 			  
  3. `npm install eslint-plugin-jest --save-dev`
  4. add "jest" support for `.eslintrc` configuration file.
-		 i. For all files.
-		 ii. Only for *.test.js files / overrides.   (this repo used this method)
+ 
+ 
+    - For all files.
+    - Only for *.test.js files / overrides.   (this repo used this method)
 		 
 	[Overrides way-stackoverflow](https://stackoverflow.com/a/69755865/13237885)
+	
 	[npm eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)
 
 **Jest setup**
