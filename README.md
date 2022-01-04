@@ -4,7 +4,7 @@
 **eslint setup**
 
  1. `npm install eslint --save-dev`
- 2. .`/node_modules/.bin/eslint --init`
+ 2. .`/node_modules/.bin/eslint --init`   (.eslintrc.json/js configuration file created)
  
  
     - To check syntax + find problems  | ~~style guide~~
