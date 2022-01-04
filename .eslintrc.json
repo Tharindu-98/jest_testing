@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+        //"jest": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    
+    //eslint settings for "*.test.js" files.
+    //This rules are only applicable for *.test.js files only. (Better for performance, manage)
+    "overrides": [
+        {
+          "files": ["*.test.js"],
+          "env": {
+            "jest": true
+          },
+          "plugins": ["jest"],
+          //"extends": ["plugin:jest/recommended"],
+          //or
+          "rules": {
+            "jest/no-disabled-tests": "warn",
+            "jest/no-focused-tests": "error",
+            "jest/no-identical-title": "error",
+            "jest/prefer-to-have-length": "warn",
+            "jest/valid-expect": "error"
+          }
+        }
+      ]
+}
+    

@@ -1,0 +1,26 @@
+{
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "This repository contains javascript test examples using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tharindu-98/jest_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tharindu-98/jest_testing/issues"
+  },
+  "homepage": "https://github.com/Tharindu-98/jest_testing#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "jest": "^27.4.5",
+    "eslint-plugin-jest": "^25.3.4"
+  },
+  "dependencies": {
+  }
+}
